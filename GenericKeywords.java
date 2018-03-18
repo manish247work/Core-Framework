@@ -60,7 +60,7 @@ public class GenericKeywords {
 	 *        "partialLinkText"
 	 * @param value
 	 *            enter the value of locator
-	 * @author manishkumar04
+	 * @author manishkumar
 	 * 
 	 */
 	public static WebElement getElement(String Locatorsvalue) {
@@ -101,7 +101,7 @@ public class GenericKeywords {
 	 *        "partialLinkText"
 	 * @param value
 	 *            enter the value of locator
-	 * @author manishkumar04
+	 * @author manishkumar
 	 * 
 	 */
 	public static boolean isElementVisible(String Locatorsvalue)
@@ -136,7 +136,7 @@ public class GenericKeywords {
 	 *        "partialLinkText"
 	 * @param value
 	 *            enter the value of locator
-	 * @author manishkumar04
+	 * @author manishkumar
 	 * 
 	 */
 	public void clickButton(String Locatorsvalue)
@@ -170,7 +170,7 @@ public class GenericKeywords {
 	 *            
 	 * @param text enter text whatever we need to keyin in the text field
 	 * 
-	 * @author manishkumar04
+	 * @author manishkumar
 	 * 
 	 */
 	public void enterText(String Locatorsvalue, String text)
@@ -201,7 +201,7 @@ public class GenericKeywords {
 	 * @Param URL enter the Site URL to open
 	 * 
 	 * 
-	 * @author manishkumar04
+	 * @author manishkumar
 	 * 
 	 */
 	public void openApplication(String URL)
@@ -227,7 +227,7 @@ public class GenericKeywords {
 	 *        "partialLinkText"
 	 * @param value
 	 *            enter the value of locator
-	 * @author manishkumar04
+	 * @author manishkumar
 	 * 
 	 */
 	public void clickLink(String Locatorsvalue)
@@ -257,7 +257,7 @@ public class GenericKeywords {
 	 * 
 	 * @Param Locatorsvalue enter locator value with underscore locator type ie. //a[contains(text(),'Electronics')]_xpath 
 	 * 
-	 * @author manishkumar04
+	 * @author manishkumar
 	 * 
 	 */
 	public boolean VerifyLinkText(String Locatorsvalue, String expectedString)
@@ -305,7 +305,7 @@ public class GenericKeywords {
 	 *        "partialLinkText"
 	 * @param value
 	 *            enter the value of locator
-	 * @author manishkumar04
+	 * @author manishkumar
 	 * 
 	 */
 	public String getLinkHref(String Locatorsvalue)
@@ -339,7 +339,7 @@ public class GenericKeywords {
 	 * 
 	 * @Param Locatorsvalue enter locator value with underscore locator type ie. //a[contains(text(),'Electronics')]_xpath 
 	 * 
-	 * @author manishkumar04
+	 * @author manishkumar
 	 * 
 	 */
 	public int getLinkcounts(String Locatorsvalue)
@@ -367,7 +367,7 @@ public class GenericKeywords {
 	 * 
 	 * @Param Locatorsvalue enter locator value with underscore locator type ie. //a[contains(text(),'Electronics')]_xpath 
 	 * 
-	 * @author manishkumar04
+	 * @author manishkumar
 	 * 
 	 */
 	public ArrayList<String>  getAllWebElementText(String Locatorsvalue)
@@ -403,7 +403,7 @@ public class GenericKeywords {
 	 *        "partialLinkText"
 	 * @param value
 	 *            enter the value of locator
-	 * @author manishkumar04
+	 * @author manishkumar
 	 * 
 	 */
 	public static List<WebElement> getElements(String Locatorsvalue) {
@@ -445,7 +445,7 @@ public class GenericKeywords {
 	 *        "partialLinkText"
 	 * @param value
 	 *            enter the value of locator
-	 * @author manishkumar04
+	 * @author manishkumar
 	 * 
 	 */
 	public static int  frameCount(String Locatorsvalue) {
